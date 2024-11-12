@@ -1,7 +1,7 @@
 import streamlit as st
 from langchain_helper import get_response
 
-st.title("EVIS Virtual Assistant (gemini-1.5-flash Memo)")
+st.title("Evis gemini-1.5-flash Memo")
 # btn = st.button("UPDATE Knowledgebase")
 # if btn:
 #     pass
