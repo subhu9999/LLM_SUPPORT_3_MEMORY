@@ -16,17 +16,18 @@ from langchain_community.chat_message_histories import ChatMessageHistory
 from langchain_core.chat_history import BaseChatMessageHistory
 from langchain_core.runnables.history import RunnableWithMessageHistory
 
-import KEYS
+
 
 # import KEYS
 # if "GOOGLE_API_KEY" not in os.environ:
 #      os.environ["GOOGLE_API_KEY"] = KEYS.GOOGLE_API_KEY
 
-os.environ["LANGCHAIN_TRACING_V2"] = "true"
-os.environ["LANGCHAIN_API_KEY"] = KEYS.LANGCHAIN_API_KEY
-os.environ["LANGCHAIN_ENDPOINT"] = "https://api.smith.langchain.com"
-os.environ["LANGCHAIN_PROJECT"] = KEYS.LANGCHAIN_PROJECT
-os.environ["GOOGLE_API_KEY"] = KEYS.GOOGLE_API_KEY
+#import KEYS
+# os.environ["LANGCHAIN_TRACING_V2"] = "true"
+# os.environ["LANGCHAIN_API_KEY"] = KEYS.LANGCHAIN_API_KEY
+# os.environ["LANGCHAIN_ENDPOINT"] = "https://api.smith.langchain.com"
+# os.environ["LANGCHAIN_PROJECT"] = KEYS.LANGCHAIN_PROJECT
+# os.environ["GOOGLE_API_KEY"] = KEYS.GOOGLE_API_KEY
 
 
 
